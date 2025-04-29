@@ -122,6 +122,8 @@ export default function Footer() {
                   href="tel:(001) 1231 3435"
                   className="flex items-center gap-4"
                 >
+                 <HiOutlinePhone size={20} /> +917606964555
+
                   <HiOutlinePhone size={20} /> +919024939664
                 </a>
               </FadeOnScroll>
