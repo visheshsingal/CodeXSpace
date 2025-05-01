@@ -8,7 +8,7 @@ import Header from "./section/Header";
 import Hero from "./section/Hero";
 import HowItWorks from "./section/HowItWork";
 // import NewsArticles from "./section/NewsArticles";
-// import Pricing from "./section/Pricing";
+import Pricing from "./section/pricing";
 // import Testimonial from "./section/Testimonial";
 
 export default function App() {
@@ -36,7 +36,7 @@ export default function App() {
         </div>
       </div>
       <div className="mx-auto max-w-7xl">
-        {/* <Pricing /> */}
+        <Pricing />
         {/* <NewsArticles /> */}
       </div>
       <div className="bg-white">

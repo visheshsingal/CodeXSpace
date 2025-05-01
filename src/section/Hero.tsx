@@ -20,7 +20,8 @@ export default function Hero() {
           </FadeUp>
         </p>
         <FadeUp delay={0.4}>
-          <Button text="Coming Soon" className="mt-8 h-[56px] w-[149px]" />
+        <a href="#pricing">
+          <Button text="Join the Course" className="mt-8 h-[56px] w-[149px]" /></a>
         </FadeUp>
 
         {/* Glow effect background */}

@@ -41,7 +41,8 @@ export default function Header() {
                 </a>
               ))}
             </div>
-            <Button text="Get Started" className="h-[56px] w-[149px]" />
+            <a href="#pricing">
+            <Button text="Enroll Now" className="h-[56px] w-[149px]" /></a>
           </div>
           <div className="flex items-center lg:hidden">
             <button

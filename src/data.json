@@ -136,53 +136,56 @@
   ],
   "pricingCards": [
     {
-      "title": "Standard",
+      "title": "Frontend",
       "badge": "Most Popular",
-      "description": "One request at a time. For companies who need on-going design support.",
-      "price": "$2,995/m",
-      "note": "Pause or cancel anytime",
+      "description": "Craft stunning, responsive websites from scratch.",
+      "price": "700 INR",
+      "note": "Duration: 1 July – 1 October",
       "star": "./assets/star_card.svg",
+      "paymentLink": "https://rzp.io/rzp/TwqS5Jtd",
       "features": [
-        "1x active task at a time",
-        "Unlimited revisions",
-        "Dedicated project manager",
-        "Daily comms through Slack",
-        "Work with senior designers",
-        "2-3 days turn around time",
-        "Top tier design"
+        "Master HTML, CSS, and JavaScript ",
+        "Responsive design with Flexbox & Grid",
+        "Create interactive UI components",
+        "React for dynamic, component-based development",
+        "Introduction to Git & GitHub",
+        "Live classes with Q&A and mentorship",
+        "Certificate of Completion"
       ]
     },
     {
-      "title": "Growth",
+      "title": "Full Stack",
       "badge": "Best value",
-      "description": "Double the requests. For companies with increasing design needs. Limited spots.",
-      "price": "$4,795/m",
+      "description": "Go from zero to job-ready — frontend + backend included",
+      "price": "999 INR",
       "note": "Pause or cancel anytime",
+      "paymentLink": "https://rzp.io/rzp/cvcFe4nk",
       "star": "./assets/star_card.svg",
       "features": [
-        "2x active task at a time",
-        "Unlimited revisions",
-        "Dedicated project manager",
-        "Daily comms through Slack",
-        "Work with senior designers",
-        "2-3 days turn around time",
-        "Top tier design"
+        "Everything in Frontend + Backend courses",
+        "Learn how to connect frontend to backend",
+        "Full-stack project: Build and deploy a web app",
+        "Advanced Git & deployment techniques",
+        "Live debugging sessions",
+        "Personalized feedback on projects",
+        "Certificate + career support tips"
       ]
     },
     {
-      "title": "Basic - Weekly",
-      "description": "Perfect if you want to try the subscription out or only have a few one-off tasks.",
-      "price": "$890/m",
-      "note": "Paid per weekly",
+      "title": "Backend",
+      "description": "Build powerful, scalable web servers and APIs",
+      "price": "700 INR",
+      "note": "Duration: 15 august – 1 October",
       "star": "./assets/star_card.svg",
+      "paymentLink": "https://rzp.io/rzp/llmTcwg",
       "features": [
-        "Fixed Scope of work",
-        "2 rounds of revisions",
-        "Dedicated project manager",
-        "Daily comms through Slack",
-        "1x designer",
-        "2-5 days turn around time",
-        "Top tier design"
+        "Master Node.js, Express, and MongoDB",
+        "Build RESTful APIs from scratch",
+        "Understand databases & CRUD operations",
+        "Authentication & authorization (JWT)",
+        "Deploy backend to cloud platforms",
+        "Hands-on project: Create your own API",
+        "Certificate of Completion"
       ]
     }
   ],
