@@ -9,15 +9,18 @@ import Hero from "./section/Hero";
 import HowItWorks from "./section/HowItWork";
 // import NewsArticles from "./section/NewsArticles";
 import Pricing from "./section/pricing";
+import { Analytics } from "@vercel/analytics/react"
 // import Testimonial from "./section/Testimonial";
 
 export default function App() {
   return (
+    
     <div className="bg-background">
       <div className="mx-auto max-w-7xl">
         <Header />
         <div>
           <Hero />
+          <Analytics/>
           <Brands />
           <HowItWorks />
         </div>
