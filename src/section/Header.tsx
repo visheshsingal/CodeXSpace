@@ -21,6 +21,9 @@ const headerList: HeaderItem[] = [
   { name: "FAQ", id: "faq" },
 ];
 
+// Get API base URL from environment variables
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://codexspace-backend.onrender.com';
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const [isBurgerActive, setIsBurgerActive] = useState<boolean>(false);
@@ -39,7 +42,7 @@ export default function Header() {
 
   const fetchUserProfile = async (token: string) => {
     try {
-      const response = await fetch('/api/auth/profile', {
+      const response = await fetch(`${API_BASE_URL}/api/auth/profile`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

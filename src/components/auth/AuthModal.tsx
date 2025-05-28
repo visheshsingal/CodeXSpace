@@ -15,6 +15,9 @@ interface FormData {
   confirmPassword: string;
 }
 
+// Get API base URL from environment variables
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://codexspace-backend.onrender.com';
+
 export default function AuthModal({ isOpen, onClose, mode, onModeChange, onAuthSuccess }: AuthModalProps) {
   const [formData, setFormData] = useState<FormData>({
     name: '',
@@ -68,7 +71,7 @@ export default function AuthModal({ isOpen, onClose, mode, onModeChange, onAuthS
     setError('');
 
     try {
-      const endpoint = mode === 'login' ? '/api/auth/login' : '/api/auth/signup';
+      const endpoint = mode === 'login' ? `${API_BASE_URL}/api/auth/login` : `${API_BASE_URL}/api/auth/signup`;
       const body = mode === 'login' 
         ? { email: formData.email, password: formData.password }
         : { name: formData.name, email: formData.email, password: formData.password };
