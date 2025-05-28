@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import FadeDown from "../components/animations/FadeDown";
-import Button from "../components/ui/Button";
 import Logo from "../components/ui/Logo";
 import AuthModal from "../components/auth/AuthModal";
 

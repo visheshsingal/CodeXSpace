@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Button from '../ui/Button';
 
 interface AuthModalProps {
   isOpen: boolean;
