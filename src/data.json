@@ -115,7 +115,7 @@
     },
     {
       "title": "6. Affordable Pricing",
-      "description": "Top-tier content and mentorship at just ₹999 — no hidden costs.",
+      "description": "Top-tier content and mentorship at just ₹2999 — no hidden costs.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ1s6Y5l8LB2iN3lH5FyY1OWtjWyeoJnV2Nw&s"
     },
     {
@@ -139,7 +139,7 @@
       "title": "Frontend",
       "badge": "Most Popular",
       "description": "Craft stunning, responsive websites from scratch.",
-      "price": "700 INR",
+      "price": "1999 INR",
       "note": "Duration: 1 July – 1 October",
       "star": "./assets/star_card.svg",
       "paymentLink": "https://rzp.io/rzp/TwqS5Jtd",
@@ -157,7 +157,7 @@
       "title": "Full Stack",
       "badge": "Best value",
       "description": "Go from zero to job-ready — frontend + backend included",
-      "price": "999 INR",
+      "price": "2999 INR",
       "note": "Pause or cancel anytime",
       "paymentLink": "https://rzp.io/rzp/cvcFe4nk",
       "star": "./assets/star_card.svg",
@@ -174,7 +174,7 @@
     {
       "title": "Backend",
       "description": "Build powerful, scalable web servers and APIs",
-      "price": "700 INR",
+      "price": "1999 INR",
       "note": "Duration: 15 august – 1 October",
       "star": "./assets/star_card.svg",
       "paymentLink": "https://rzp.io/rzp/llmTcwg",
@@ -238,7 +238,7 @@
     },
     {
       "question": "What is the cost of the course?",
-      "answer": "The course will be very affordable, priced at just ₹999, and includes premium content, live classes, and more to help you become a web development pro."
+      "answer": "The course will be very affordable, priced at just ₹2999, and includes premium content, live classes, and more to help you become a web development pro."
     },
     {
       "question": "Are resources and notes paid?",
