@@ -90,13 +90,13 @@ export default function Header() {
     openAuthModal("signup")
   }
 
-  const handleEnrollClick = () => {
-    // Your existing enroll functionality
-    const element = document.getElementById("pricing")
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
-    }
-  }
+  // const handleEnrollClick = () => {
+  //   // Your existing enroll functionality
+  //   const element = document.getElementById("pricing")
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: "smooth" })
+  //   }
+  // }
 
   if (isLoading) {
     return (
